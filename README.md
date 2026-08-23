@@ -1,7 +1,7 @@
 ## Hi, I'm @HoangMNguyen 👋
 
 - 👀 I'm interested in programming fun projects, making great espresso, and other stuffs :)
-- 🎓 M.S. in Computer Science, Georgia Tech (OMSCS)
+- 🎓 M.S. in Computer Science, Georgia Tech (OMSCS) — focused on **database internals, distributed systems, and backend engineering**
 - 💞️ I'm looking to collaborate on any projects, so please feel free to reach out!
 - 📫 You can reach me through my email: hoangmnguyen.work@gmail.com
 
@@ -13,18 +13,32 @@
 
 Coursework from the Georgia Tech OMSCS program. **These repositories are private** in line with Georgia Tech's academic policy — I'm happy to grant read access to recruiters and collaborators on request.
 
-| Course | Focus | Highlights |
+`C/C++17` · `Java` · `Python` · `gRPC & Protocol Buffers` · `POSIX threads/IPC & sockets` · `Docker` · `CMake` · `LLVM` · `Gradle` · `Linux`
+
+### Database & systems programming
+
+| Course | What I built | Tools & tech |
 |---|---|---|
-| CS 6200 Graduate Intro to OS | C, systems programming | Multithreaded file server, shared-memory proxy cache, gRPC distributed file system |
-| CS 6290 High Performance Computer Architecture | C++, simulation | Branch prediction, cache hierarchy, and coherence experiments on a cycle-accurate simulator |
-| CS 6250 Computer Networks | Python, SDN | Spanning tree and distance-vector routing protocols, Mininet simulations |
-| CS 6340 Software Analysis & Testing | C++, LLVM | Custom LLVM passes, coverage-guided fuzzer, dataflow analysis |
-| CS 6422 Database System Implementation | C++ | Database internals: storage, buffer management, query execution (BuzzDB labs) |
-| CS 7637 Knowledge-Based AI | Python | ARC-AGI solver plus classification, diagnosis, planning, and NLP agents |
-| CS 7646 Machine Learning for Trading | Python, pandas | Tree/ensemble learners from scratch, market simulator, portfolio optimization |
-| CS 6300 Software Development Process | Java, Android | Android app built across four deliverables with UML design, JUnit/Espresso tests, CI |
-| CS 6750 Human-Computer Interaction | UX research | Semester-long interface design project: needfinding → prototyping → evaluation |
-| CS 6515 Graduate Algorithms | Theory | Dynamic programming, divide & conquer, graph algorithms |
+| **CS 6422 — Database System Implementation** | Core components of a relational DBMS built from scratch across five labs: page-based storage and file layout, buffer management, and a query execution engine with physical operators — all developed and tested in a containerized Linux environment | C++17, CMake, Docker & Compose, Linux |
+| **CS 6200 — Graduate Intro to Operating Systems** | Server-side systems in C: a multithreaded file-transfer server and client (boss–worker thread pool over POSIX sockets and a custom protocol); a multi-process caching proxy where processes coordinate through shared memory, semaphores, and message queues; and a distributed file system with client–server synchronization over gRPC | C, pthreads, POSIX IPC (shared memory, semaphores, message queues), Berkeley sockets, gRPC, Protocol Buffers, Make, Vagrant |
+| **CS 6290 — High Performance Computer Architecture** | Performance experiments on a cycle-accurate CPU simulator: branch predictor modifications, cache hierarchy and memory studies, and multicore cache-coherence analysis — with findings quantified in written reports | C++, SESC simulator, Linux VMs |
+
+### Networking & infrastructure
+
+| Course | What I built | Tools & tech |
+|---|---|---|
+| **CS 6250 — Computer Networks** | Distributed control-plane algorithms implemented from the ground up: a spanning tree protocol and a distance-vector routing protocol with negative-cycle handling, validated across emulated network topologies; SDN-based network simulations | Python, Mininet, SDN |
+| **CS 6340 — Software Analysis & Testing** | Program-analysis tooling on the LLVM toolchain: custom IR instrumentation passes, a coverage-guided fuzzer built in three stages, and dataflow analyses over LLVM IR | C++, LLVM, CMake |
+
+### Software engineering & data
+
+| Course | What I built | Tools & tech |
+|---|---|---|
+| **CS 6300 — Software Development Process** | An Android app taken through four structured deliverables — requirements, UML design, implementation, and testing — plus TDD assignments with unit, white-box, and black-box test suites under CI | Java, Android SDK, Gradle, JUnit, Espresso, Git |
+| **CS 7646 — Machine Learning for Trading** | Decision-tree, random-tree, and bagging ensemble learners implemented from scratch (no ML libraries); a market simulator that processes order books into portfolio valuations; portfolio statistics and optimization | Python, pandas, NumPy, matplotlib |
+| **CS 7637 — Knowledge-Based AI** | A suite of reasoning agents — classification, diagnosis, planning, and NLP — culminating in the ARC-AGI solver featured above | Python, NumPy, scikit-image, OpenCV |
+
+**Also completed:** CS 6515 Graduate Algorithms (dynamic programming, divide & conquer, graph algorithms, correctness proofs) · CS 6750 Human-Computer Interaction (semester-long UX research and evaluation project) · CS 8001 Java OOP seminar.
 
 <!---
 HoangMNguyen/HoangMNguyen is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
