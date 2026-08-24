@@ -11,9 +11,7 @@
 
 ## 💼 Professional projects
 
-**[CCI-Automation](https://github.com/HoangMNguyen/CCI-Automation)** — workflow automation for clinical research operations at Penn Medicine's CCI. A PySide6 desktop tool that generates enrollment logs and DSMB safety reports from study data, produces team time-tracking dashboards through the Clockify REST API, and automates recurring data-formatting fixes. *Python, PySide6, pandas, NumPy, xlsxwriter, REST APIs.*
-
-**Clinical Reporting Tool** *(private — available on request)* — a guided desktop application for assembling clinical report outputs from Excel/CSV sources: form and item pickers with regex search, join/rename/filter/comparison configuration, and reusable saved report settings. Unit- and integration-tested with pytest. *Python, PySide6, pandas, pytest.*
+**CCI Clinical Reporting & Automation Suite** *(private — available on request)* — a suite of four desktop applications for clinical trial reporting at Penn Medicine's CCI, built on a **single shared headless backend**. The flagship Clinical Reporting Tool is a configurable report builder over Corelisting/CSV/Excel data (join, filter, and comparison configuration with reusable saved settings); companion apps automate enrollment logs, DSMB safety reports, and Clockify time-tracking dashboards, AE/DLT safety listings, and Medidata SDS peer-review error reports. Unit- and integration-tested with pytest, Ruff-linted, and packaged as standalone executables. An earlier public iteration of the automation tooling is at [CCI-Automation](https://github.com/HoangMNguyen/CCI-Automation). *Python, PySide6, pandas, NumPy, xlsxwriter, REST APIs, pytest, PyInstaller.*
 
 ## 🎓 Graduate coursework portfolio
 
