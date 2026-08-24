@@ -9,11 +9,17 @@
 
 **[ARC-AGI Solver](https://github.com/HoangMNguyen/arc-agi-solver)** — a symbolic, search-based agent for ARC-AGI abstraction-and-reasoning puzzles: observation-driven hypothesis generation over a transformation registry, validated by breadth-first search across training examples. Pure reasoning, no training data.
 
+## 💼 Professional projects
+
+**[CCI-Automation](https://github.com/HoangMNguyen/CCI-Automation)** — workflow automation for clinical research operations at Penn Medicine's CCI. A PySide6 desktop tool that generates enrollment logs and DSMB safety reports from study data, produces team time-tracking dashboards through the Clockify REST API, and automates recurring data-formatting fixes. *Python, PySide6, pandas, NumPy, xlsxwriter, REST APIs.*
+
+**Clinical Reporting Tool** *(private — available on request)* — a guided desktop application for assembling clinical report outputs from Excel/CSV sources: form and item pickers with regex search, join/rename/filter/comparison configuration, and reusable saved report settings. Unit- and integration-tested with pytest. *Python, PySide6, pandas, pytest.*
+
 ## 🎓 Graduate coursework portfolio
 
 Coursework from the Georgia Tech OMSCS program. **These repositories are private** in line with Georgia Tech's academic policy — I'm happy to grant read access to recruiters and collaborators on request.
 
-`C/C++17` · `Java` · `Python` · `gRPC & Protocol Buffers` · `POSIX threads/IPC & sockets` · `Docker` · `CMake` · `LLVM` · `Gradle` · `Linux`
+`C/C++17` · `Java` · `Python` · `SQLite` · `gRPC & Protocol Buffers` · `POSIX threads/IPC & sockets` · `Docker` · `CMake` · `LLVM` · `Gradle` · `pandas` · `Linux`
 
 ### Database & systems programming
 
@@ -34,7 +40,7 @@ Coursework from the Georgia Tech OMSCS program. **These repositories are private
 
 | Course | What I built | Tools & tech |
 |---|---|---|
-| **CS 6300 — Software Development Process** | An Android app taken through four structured deliverables — requirements, UML design, implementation, and testing — plus TDD assignments with unit, white-box, and black-box test suites under CI | Java, Android SDK, Gradle, JUnit, Espresso, Git |
+| **CS 6300 — Software Development Process** | An Android app taken through four structured deliverables — requirements, UML design, implementation, and testing — plus a team-built job-comparison app backed by SQLite (`SQLiteOpenHelper` persistence layer, Espresso instrumented test suite) and TDD assignments with unit, white-box, and black-box tests under CI | Java, Android SDK, SQLite, Gradle, JUnit, Espresso, Git |
 | **CS 7646 — Machine Learning for Trading** | Decision-tree, random-tree, and bagging ensemble learners implemented from scratch (no ML libraries); a market simulator that processes order books into portfolio valuations; portfolio statistics and optimization | Python, pandas, NumPy, matplotlib |
 | **CS 7637 — Knowledge-Based AI** | A suite of reasoning agents — classification, diagnosis, planning, and NLP — culminating in the ARC-AGI solver featured above | Python, NumPy, scikit-image, OpenCV |
 
